@@ -1,10 +1,10 @@
 
-$( document ).ready(function() {
-	alert("bienvenue");
-	 $( "p" ).on( "click", function() {
-          $("p").addClass('red');
-    });
-	
+$(document).ready(function(){
+	$("p").on("click",function(){
+		if ($(this).hasClass('red')){
+			$(this).removeClass('red');
+		}else{
+			$(this).addClass('red');
+		}
+	});
 });
- 
-  

@@ -75,11 +75,23 @@ a:hover {
   width: 400px;}
 
 #apropos{
+  display : flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 5px solid red;
   margin: 5 auto;
   width: 80%;
+  background: pink;
 }
 
 #download{
   margin: 5 auto;
   width: 80%;
+}
+
+nav li {
+  margin: 10px;
+  display:inline;
+}
+.red{color: red;
 }
